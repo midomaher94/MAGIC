@@ -101,6 +101,11 @@
                 width: 30px;
                 height: 30px;
             }
+            /* Highlight table rows on hover */
+            table tbody tr:hover {
+                background: rgba(245, 166, 35, 0.08);
+                transition: background 0.2s;
+            }
             @media (max-width: 480px) {
                 h1 {
                     font-size: 1.3rem;
@@ -348,15 +353,29 @@
                         <td class="price">150</td>
                         <td class="price">170</td>
                     </tr>
-                    <td>فطائر بلدي</td>
-                    <td class="price">فطيرة مشلتت وسط</td>
-                    <td class="price">70</td>
-                    <td class="price">فطيرة مشلتت لارج</td>
-                    <td class="price">85</td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </section>
+        <section class="menu-section">
+            <h2 class="section-title">فطائر بلدي</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>الصنف</th>
+                        <th>وسط</th>
+                        <th>لارج</th>
+                    </tr>
+                    <tr>
+                        <td>فطيره مشلتت</td>
+                        <td class="price">70</td>
+                        <td class="price">85</td>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>       
 
         <section class="menu-section">
             <h2 class="section-title">قسم المكرونات</h2>
